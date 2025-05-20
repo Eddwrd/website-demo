@@ -1,0 +1,495 @@
+<html>
+    <head>
+        <title>Fat Bob's Bar And Grill</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="robots" content="noindex, nofollow">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            alert("Welcome To Fat Bob's Bar And Grill Website Remake")
+        </script>
+
+           <link rel="icon" href="favicon-32x32.png" type="image/png">
+    </head>
+    <body>
+
+        <!-- NAVIGATION |BAR -->
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+        <header id="cs-navigation">
+            <div class="cs-container">
+                <!--Nav Logo-->
+                <!--Logo is turned white in the css with a filter on dark mode-->
+                <a href="" class="cs-logo" aria-label="back to home">
+                    <p>Fat Bob's Bar and Grill</p>
+                </a>
+                <!--Navigation List-->
+                <nav class="cs-nav" role="navigation">
+                    <!--Mobile Nav Toggle-->
+                    <button class="cs-toggle" aria-label="mobile menu toggle">
+                        <div class="cs-box" aria-hidden="true">
+                            <span class="cs-line cs-line1" aria-hidden="true"></span>
+                            <span class="cs-line cs-line2" aria-hidden="true"></span>
+                            <span class="cs-line cs-line3" aria-hidden="true"></span>
+                        </div>
+                    </button>
+                    <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                    <div class="cs-ul-wrapper">
+                        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                            <li class="cs-li">
+                                <a href="#about " class="cs-li-link cs-active">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="#menu" class="cs-li-link">
+                                    Menu
+                                </a>
+                            </li>
+                            <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                            <li class="cs-li cs-dropdown" tabindex="0">
+                                <span class="cs-li-link">
+                                    <a href="#event" class="cs-li-link">
+                                    Events
+                                    </a>
+                                </span>
+                            </li>
+                            <li class="cs-li">
+                                <a href="#contact" class="cs-li-link">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="cs-li">
+                                <a href="#social" class="cs-li-link">
+                                    Social Media
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="cs-contact-group">
+                    <a href="tel:+84 1985 33 999" class="cs-phone">
+                        <img class="cs-phone-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-1a.svg" alt="logo" width="24" height="24" aria-hidden="true" decoding="async">
+                        +61 9555 0909
+                    </a>
+                    <div class="cs-social">
+                        <a href="" class="cs-social-link">
+                            <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                        </a>
+                        <a href="" class="cs-social-link">
+                            <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twitter-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                        </a>
+                        <a href="" class="cs-social-link">
+                            <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                        </a>
+                        <a href="" class="cs-social-link">
+                            <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/youtube1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                        </a>
+                    </div>
+                </div>
+                <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+                <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+                    <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                    <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+                </button> -->
+            </div>
+        </header>
+                                
+
+
+
+
+
+
+         <!-- Dividing Section -->
+<!-- ============================================ -->
+<!--             Side by Side Reverse             -->
+<!-- ============================================ -->
+
+        <section id="sbs-r-1892">
+            <div class="cs-container">
+                <div class="cs-image-group">
+                    <picture class="cs-picture">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/5863530/pexels-photo-5863530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/5863530/pexels-photo-5863530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bar" width="324" height="467">
+                    </picture>
+                    <img class="cs-graphic cs-brown" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/lines-reverse.svg" alt="graphic" width="208" height="203" aria-hidden="true">
+                    <img class="cs-graphic cs-peach" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/blob-reverse.svg" alt="graphic" width="56" height="42" aria-hidden="true">
+                    <img class="cs-graphic cs-beige" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/beige-reverse.svg" alt="graphic" width="379" height="394" aria-hidden="true">
+                    <img class="cs-graphic cs-leaf" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/leaf-reverse.svg" alt="graphic" width="179" height="225" aria-hidden="true">
+                    <img class="cs-graphic cs-lines" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/mesh-reverse.svg" alt="graphic" width="189" height="208" aria-hidden="true">
+                    
+                </div>
+                <div class="cs-content">
+                    <div class="cs-flex">
+                        <span class="cs-topper" id="about">About us</span>
+                        <h2 class="cs-title">Welcome to Fat Bob's Grill And Bar</h2>
+                    </div>
+                    <p class="cs-text-large">
+        Bob has a few big loves in life;  ice cold beer, big burgers, vintage signs, cool cars and hot rods. When Bob's peckish an ice cold beer and a good burger always hits the spot.  When Bob's at work designing signs he's always on the lookout for old, rare and special signs. And when Bob's not working you might just find him out cruising in his award winning lime green 1936 Ford coupe,  just one of a number of cars that Bob owns.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+
+
+        <!-- DIVIDING SECTION -->
+        <!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+        <section id="services-1829">
+            <div id="products" class="cs-container">
+                <div class="cs-content">
+                    <h2 class="cs-title" id="menu">Burger Menu</h2>
+                    <p class="cs-text">
+                        We are proud to say all our burgers contain 100% grass-fed beef mince cooked with love to order and served MEDIUM for optimum flavour
+                    </p>
+                </div>
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Burger Fat Bob" href="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">Burger Fat Bob</h3>
+                            </div>
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Fat Bob's Special French Fries" href="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">French Fries</h3>
+                            </div>
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="SandWich Double Cheese" href="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg" id="products" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">Sandwich</h3>
+                            </div>
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Mild Popcorn Chicken" href="https://media.istockphoto.com/id/613134972/photo/chicken-delicious-homemade-popcorn.jpg?b=1&s=612x612&w=0&k=20&c=L30eqpfoWM8kGl6NLJ3sf9wFwwBdzer4NsU6M-S_dYA=" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://media.istockphoto.com/id/613134972/photo/chicken-delicious-homemade-popcorn.jpg?b=1&s=612x612&w=0&k=20&c=L30eqpfoWM8kGl6NLJ3sf9wFwwBdzer4NsU6M-S_dYA=">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://media.istockphoto.com/id/613134972/photo/chicken-delicious-homemade-popcorn.jpg?b=1&s=612x612&w=0&k=20&c=L30eqpfoWM8kGl6NLJ3sf9wFwwBdzer4NsU6M-S_dYA=">
+                                <img loading="lazy" decoding="async" src="https://media.istockphoto.com/id/613134972/photo/chicken-delicious-homemade-popcorn.jpg?b=1&s=612x612&w=0&k=20&c=L30eqpfoWM8kGl6NLJ3sf9wFwwBdzer4NsU6M-S_dYA=" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">Popcorn Chicken</h3>
+                            </div>
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Crispy Onion Ring" href="https://images.pexels.com/photos/6941040/pexels-photo-6941040.jpeg?auto=compress&cs=tinysrgb&w=600" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/6941040/pexels-photo-6941040.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/6941040/pexels-photo-6941040.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/6941040/pexels-photo-6941040.jpeg?auto=compress&cs=tinysrgb&w=600" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">Onion Ring</h3>
+                            </div>
+                        
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Caramel Sundae" href="https://images.pexels.com/photos/5060466/pexels-photo-5060466.jpeg?auto=compress&cs=tinysrgb&w=600" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/5060466/pexels-photo-5060466.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/5060466/pexels-photo-5060466.jpeg?auto=compress&cs=tinysrgb&w=600">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/5060466/pexels-photo-5060466.jpeg?auto=compress&cs=tinysrgb&w=600" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                    <h3 class="cs-h3">Sundae Loaded</h3>
+                            </div>
+                        
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Chocolate Mint Brownie" href="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">Brownie</h3>
+                            </div>
+                    </li>
+                    <li class="cs-item">
+                        <a data-fancybox="gallery" data-caption="Red Wine Fat Bob's Specialized" href="https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="cs-link">
+                            <picture class="cs-picture">
+                                <!--Mobile Image-->
+                                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                                <!--Tablet and above Image-->
+                                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                                <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="person" width="500" height="700">
+                            </picture>
+                        </a>
+                            <div class="cs-flex">
+                                <h3 class="cs-h3">Wine</h3>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Background Image, background image added in the css at 768px for parallax effect -->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                <img decoding="async" src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cream background with ripple" width="1920" height="970" aria-hidden="true">
+            </picture>
+            <!-- Top left gold graphic -->
+            <img class="cs-graphic1" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gold-graphic.svg" alt="gold flake graphic" width="370" height="322" aria-hidden="true">
+            <!-- Bottom right gold graphic -->
+            <img class="cs-graphic2" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gold-graphic.svg" alt="gold flake graphic" width="370" height="322" aria-hidden="true">
+        </section>
+                                
+<!-- This IS THE NEXT SECTION -->
+<!-- ============================================ -->
+<!--                    Events                    -->
+<!-- ============================================ -->
+
+        <section id="events-1928">
+            <div class="cs-container">
+                <div class="cs-image-group">
+                    <picture class="cs-picture">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="dermatologist" width="522" height="680">
+                    </picture>
+                </div>
+                <div class="cs-content">
+                    <div class="cs-flex">
+                        <span class="cs-topper" id="event">Our Events</span>
+                        <h2 class="cs-title">Upcoming This Month</h2>
+                    </div>
+                    <ul class="cs-card-group">
+                        <li class="cs-item">
+                            <span class="cs-date">
+                                <strong>26</strong>
+                                August 2025
+                            </span>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">20% Discounts For Total Over $100</h3>
+                                <span class="cs-time"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async">12:00AM - 02:00PM</span>
+                            </div>
+                            <a href="" class="cs-button-solid">Reserve</a>
+                        </li>
+                        <li class="cs-item">
+                            <span class="cs-date">
+                                <strong>17</strong>
+                                Sept 2025
+                            </span>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">Buy 1 Fat Bob with Free Fries & Drink</h3>
+                                <span class="cs-time"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async">12:00AM - 02:00PM</span>
+                            </div>
+                            <a href="" class="cs-button-solid">Reserve</a>
+                        </li>
+                        <li class="cs-item">
+                            <span class="cs-date">
+                                <strong>12</strong>
+                                October 2025
+                            </span>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">5% Cashback For $50 Spending </h3>
+                                <span class="cs-time"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-clock.svg" alt="icon" width="24" height="24" loading="lazy" decoding="async">12:00AM - 02:00PM</span>
+                            </div>
+                            <a href="" class="cs-button-solid">Reserve</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img class="cs-graphic4" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/faces-graphic-flipped.svg" alt="graphic" loading="lazy" decoding="async" width="835" height="912">
+        </section>
+                                    
+
+
+            <!-- This is the next section -->
+            <section id="contact-2320">
+                <div class="cs-container">
+                    <div class="cs-content">
+                        <span class="cs-topper" id="contact">Contact Us For Reservation</span>
+                        <h2 class="cs-title">Get In Touch With Fat Bob's Bar and Grill</h2>
+                        <!--Form-->
+                        <form class="cs-form" id="cs-form-323-2320" name="Contact Form" method="post">
+                            <label class="cs-label">
+                                Name
+                                <input class="cs-input" required type="text" name="name" placeholder="Name">
+                            </label>
+                            <label class="cs-label cs-email">
+                                Email
+                                <input class="cs-input" required type="email" name="email" placeholder="Email">
+                            </label>
+                            <label class="cs-label cs-phone">
+                                Phone
+                                <input class="cs-input" required type="tel" name="phone" placeholder="Phone">
+                            </label>
+                            <label class="cs-label cs-services">
+                                Services
+                                <select class="cs-input" name="Services">
+                                    <option value="" disabled selected>Select a Service</option>
+                                    <option value="New Construction">Birthday Party</option>
+                                    <option value="Remodels">Movie Night Party</option>
+                                    <option value="Cabinets">Themed Costume Party</option>
+                                </select>
+                            </label>
+                            <label class="cs-label">
+                                Message
+                                <textarea class="cs-input cs-textarea" required name="Message" placeholder="Write message..."></textarea>
+                            </label>
+                            <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <!--Map Image, pin is made in the Figma then export as one image-->
+                    <div class="cs-map">
+                        <div class="cs-iframe-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.33373691145!2d-122.33979794999999!3d47.608715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1739169879796!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="cs-box">
+                            <img class="cs-icon" decoding="async" loading="lazy" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/yellow-pin.svg" alt="icon" width="40" height="40" aria-hidden="true">
+                            <div class="cs-flex">
+                                <span class="cs-header">Location</span>
+                                <span class="cs-address">80 Cochranes Road, Moorabbin Victoria 3189
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-container2">
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://images.pexels.com/photos/32083420/pexels-photo-32083420/free-photo-of-modern-urban-cafe-interior-with-large-windows.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://images.pexels.com/photos/32083420/pexels-photo-32083420/free-photo-of-modern-urban-cafe-interior-with-large-windows.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <img loading="lazy" decoding="async" src="https://images.pexels.com/photos/32083420/pexels-photo-32083420/free-photo-of-modern-urban-cafe-interior-with-large-windows.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="house" width="1280" height="243">
+                    </picture>
+                    <div class="cs-hours">
+                        <div class="cs-topper">Working Hours</div>
+                        <span class="cs-hours-info">Wednesday - Sunday: <br>12:00 - 21:30</span>
+                    </div>
+                </div>
+            </section>
+
+
+   <!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+        <footer id="cs-footer-1292">
+            <div class="cs-container">      
+                <!-- Logo Group -->
+                <div class="cs-logo-group">
+                    <a aria-label="go back to home" class="cs-logo" href="">
+                        <h2 id="social">Fat Bob's Bar And Grill</h2>    
+                    </a>
+                    <p class="cs-text">
+                        We serve the best burgers and grills.
+                    </p>
+                    <a href="mailto:info@mail.com" class="cs-link">
+                        <img class="cs-link-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/construction-mail.svg" alt="icon" width="24" height="24">
+                        info@fatbobs.com.au
+                    </a>
+                </div>
+                <!-- Links -->
+                
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">About</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Our Story</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Benefits</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Team</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Career</a>
+                    </li>
+                </ul>
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">Contact</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Facebook</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Instagram</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">Help</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">FAQ</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cs-bottom">
+                <span class="cs-copyright">Copyright© 2023. 
+                    <a class="cs-copyright-link" href="">Stitch Construction.</a>
+                    All Right Reserved.
+                </span>
+                <a href="" class="cs-copyright-link">Terms of Service</a>
+                <a href="" class="cs-copyright-link">Privacy Policy</a>
+            </div>
+            <!--Floating Cirlces-->
+            <div class="cs-floater" aria-hidden="true"></div>
+        </footer>
+                         
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script src="script.js"></script>
+    </body>
+    
+</html>
